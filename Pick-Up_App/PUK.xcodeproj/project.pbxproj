@@ -9,17 +9,12 @@
 /* Begin PBXBuildFile section */
 		04315E76277F53B200C52338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315E75277F53B200C52338 /* AppDelegate.m */; };
 		04315E79277F53B200C52338 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315E78277F53B200C52338 /* SceneDelegate.m */; };
-		04315E7C277F53B200C52338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315E7B277F53B200C52338 /* ViewController.m */; };
 		04315E7F277F53B200C52338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04315E7D277F53B200C52338 /* Main.storyboard */; };
 		04315E81277F53B600C52338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04315E80277F53B600C52338 /* Assets.xcassets */; };
 		04315E84277F53B600C52338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04315E82277F53B600C52338 /* LaunchScreen.storyboard */; };
 		04315E87277F53B600C52338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315E86277F53B600C52338 /* main.m */; };
 		04315E91277F53B700C52338 /* PUKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315E90277F53B700C52338 /* PUKTests.m */; };
 		04315E9C277F53B700C52338 /* PUKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315E9B277F53B700C52338 /* PUKUITests.m */; };
-		04315EB9277F5A0600C52338 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315EB8277F5A0600C52338 /* LoginView.m */; };
-		04315EC2277F5A2B00C52338 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315EC1277F5A2B00C52338 /* LoginViewController.m */; };
-		04315ECB277F5A8500C52338 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315ECA277F5A8500C52338 /* RegisterView.m */; };
-		04315ED4277F5A9600C52338 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315ED3277F5A9600C52338 /* RegisterViewController.m */; };
 		04315F2D2788A83400C52338 /* KidsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315F2C2788A83400C52338 /* KidsView.m */; };
 		04315F362788A84100C52338 /* KidsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315F352788A84100C52338 /* KidsViewController.m */; };
 		04315F402789CAE400C52338 /* PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315F3F2789CAE400C52338 /* PickerView.m */; };
@@ -29,6 +24,22 @@
 		049AA4E92795E53E00010AFB /* KidPhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AA4E82795E53E00010AFB /* KidPhotoTableViewCell.m */; };
 		049AA4EF27988D0D00010AFB /* KidEmotionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AA4EE27988D0D00010AFB /* KidEmotionTableViewCell.m */; };
 		8585951EA3AAA684E3AAD848 /* libPods-PUK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4772A28DC2159AF596994 /* libPods-PUK.a */; };
+		BCB5B22C279BD948007B78E2 /* SignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B22B279BD948007B78E2 /* SignInView.m */; };
+		BCB5B235279BDA1F007B78E2 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B234279BDA1F007B78E2 /* SignInViewController.m */; };
+		BCB5B238279BDBA1007B78E2 /* SignUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B237279BDBA1007B78E2 /* SignUpView.m */; };
+		BCB5B23B279BDDFD007B78E2 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B23A279BDDFD007B78E2 /* SignUpViewController.m */; };
+		BCB5B243279BF9E5007B78E2 /* EventHandlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B242279BF9E5007B78E2 /* EventHandlingViewController.m */; };
+		BCB5B249279BFAA0007B78E2 /* EventCheckingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B248279BFAA0007B78E2 /* EventCheckingViewController.m */; };
+		BCB5B24C279BFC08007B78E2 /* EventHandlingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B24B279BFC08007B78E2 /* EventHandlingView.m */; };
+		BCB5B254279C002C007B78E2 /* PickerSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B253279C002C007B78E2 /* PickerSettingViewController.m */; };
+		BCB5B263279C0556007B78E2 /* KidStateCheckingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B262279C0556007B78E2 /* KidStateCheckingViewController.m */; };
+		BCB5B26A279C05B2007B78E2 /* EditingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B269279C05B2007B78E2 /* EditingMenuViewController.m */; };
+		BCB5B270279C0674007B78E2 /* SchoolInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B26F279C0674007B78E2 /* SchoolInformationViewController.m */; };
+		BCB5B276279C06B0007B78E2 /* ParentSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B275279C06B0007B78E2 /* ParentSettingViewController.m */; };
+		BCB5B285279C0FD3007B78E2 /* KidStateEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B284279C0FD3007B78E2 /* KidStateEditingViewController.m */; };
+		BCB5B292279C7F54007B78E2 /* EventConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B291279C7F54007B78E2 /* EventConfirmViewController.m */; };
+		BCB5B295279C7FCE007B78E2 /* SchoolInformationEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B294279C7FCE007B78E2 /* SchoolInformationEditingViewController.m */; };
+		BCB5B298279C7FE3007B78E2 /* TeacherSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B297279C7FE3007B78E2 /* TeacherSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +65,6 @@
 		04315E75277F53B200C52338 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04315E77277F53B200C52338 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		04315E78277F53B200C52338 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		04315E7A277F53B200C52338 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04315E7B277F53B200C52338 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04315E7E277F53B200C52338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04315E80277F53B600C52338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04315E83277F53B600C52338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,14 +76,6 @@
 		04315E97277F53B700C52338 /* PUKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PUKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04315E9B277F53B700C52338 /* PUKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUKUITests.m; sourceTree = "<group>"; };
 		04315E9D277F53B700C52338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04315EB7277F5A0600C52338 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
-		04315EB8277F5A0600C52338 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
-		04315EC0277F5A2B00C52338 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		04315EC1277F5A2B00C52338 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		04315EC9277F5A8500C52338 /* RegisterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
-		04315ECA277F5A8500C52338 /* RegisterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
-		04315ED2277F5A9600C52338 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
-		04315ED3277F5A9600C52338 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		04315F2B2788A83400C52338 /* KidsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KidsView.h; sourceTree = "<group>"; };
 		04315F2C2788A83400C52338 /* KidsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidsView.m; sourceTree = "<group>"; };
 		04315F342788A84100C52338 /* KidsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KidsViewController.h; sourceTree = "<group>"; };
@@ -93,6 +94,38 @@
 		049AA4EE27988D0D00010AFB /* KidEmotionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidEmotionTableViewCell.m; sourceTree = "<group>"; };
 		1B4C29C7948AD71EE9718D5B /* Pods-PUK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUK.debug.xcconfig"; path = "Target Support Files/Pods-PUK/Pods-PUK.debug.xcconfig"; sourceTree = "<group>"; };
 		83A4772A28DC2159AF596994 /* libPods-PUK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PUK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB5B22A279BD948007B78E2 /* SignInView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInView.h; sourceTree = "<group>"; };
+		BCB5B22B279BD948007B78E2 /* SignInView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInView.m; sourceTree = "<group>"; };
+		BCB5B233279BDA1F007B78E2 /* SignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		BCB5B234279BDA1F007B78E2 /* SignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		BCB5B236279BDBA1007B78E2 /* SignUpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpView.h; sourceTree = "<group>"; };
+		BCB5B237279BDBA1007B78E2 /* SignUpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpView.m; sourceTree = "<group>"; };
+		BCB5B239279BDDFD007B78E2 /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		BCB5B23A279BDDFD007B78E2 /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		BCB5B241279BF9E5007B78E2 /* EventHandlingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventHandlingViewController.h; sourceTree = "<group>"; };
+		BCB5B242279BF9E5007B78E2 /* EventHandlingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventHandlingViewController.m; sourceTree = "<group>"; };
+		BCB5B247279BFAA0007B78E2 /* EventCheckingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventCheckingViewController.h; sourceTree = "<group>"; };
+		BCB5B248279BFAA0007B78E2 /* EventCheckingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventCheckingViewController.m; sourceTree = "<group>"; };
+		BCB5B24A279BFC08007B78E2 /* EventHandlingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventHandlingView.h; sourceTree = "<group>"; };
+		BCB5B24B279BFC08007B78E2 /* EventHandlingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventHandlingView.m; sourceTree = "<group>"; };
+		BCB5B252279C002C007B78E2 /* PickerSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerSettingViewController.h; sourceTree = "<group>"; };
+		BCB5B253279C002C007B78E2 /* PickerSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerSettingViewController.m; sourceTree = "<group>"; };
+		BCB5B261279C0556007B78E2 /* KidStateCheckingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KidStateCheckingViewController.h; sourceTree = "<group>"; };
+		BCB5B262279C0556007B78E2 /* KidStateCheckingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidStateCheckingViewController.m; sourceTree = "<group>"; };
+		BCB5B268279C05B2007B78E2 /* EditingMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditingMenuViewController.h; sourceTree = "<group>"; };
+		BCB5B269279C05B2007B78E2 /* EditingMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditingMenuViewController.m; sourceTree = "<group>"; };
+		BCB5B26E279C0674007B78E2 /* SchoolInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolInformationViewController.h; sourceTree = "<group>"; };
+		BCB5B26F279C0674007B78E2 /* SchoolInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolInformationViewController.m; sourceTree = "<group>"; };
+		BCB5B274279C06B0007B78E2 /* ParentSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentSettingViewController.h; sourceTree = "<group>"; };
+		BCB5B275279C06B0007B78E2 /* ParentSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentSettingViewController.m; sourceTree = "<group>"; };
+		BCB5B283279C0FD3007B78E2 /* KidStateEditingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KidStateEditingViewController.h; sourceTree = "<group>"; };
+		BCB5B284279C0FD3007B78E2 /* KidStateEditingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidStateEditingViewController.m; sourceTree = "<group>"; };
+		BCB5B290279C7F54007B78E2 /* EventConfirmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventConfirmViewController.h; sourceTree = "<group>"; };
+		BCB5B291279C7F54007B78E2 /* EventConfirmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventConfirmViewController.m; sourceTree = "<group>"; };
+		BCB5B293279C7FCE007B78E2 /* SchoolInformationEditingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolInformationEditingViewController.h; sourceTree = "<group>"; };
+		BCB5B294279C7FCE007B78E2 /* SchoolInformationEditingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolInformationEditingViewController.m; sourceTree = "<group>"; };
+		BCB5B296279C7FE3007B78E2 /* TeacherSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeacherSettingViewController.h; sourceTree = "<group>"; };
+		BCB5B297279C7FE3007B78E2 /* TeacherSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeacherSettingViewController.m; sourceTree = "<group>"; };
 		ED84FFA4E8A4DCD3B7B93B83 /* Pods-PUK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUK.release.xcconfig"; path = "Target Support Files/Pods-PUK/Pods-PUK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,17 +180,18 @@
 		04315E73277F53B200C52338 /* PUK */ = {
 			isa = PBXGroup;
 			children = (
+				BCB5B21F279BD0BF007B78E2 /* Resource */,
+				BCB5B224279BD69E007B78E2 /* Login */,
+				BCB5B222279BD611007B78E2 /* Picker */,
+				BCB5B221279BD2B8007B78E2 /* Parent */,
+				BCB5B223279BD615007B78E2 /* Teacher */,
 				04315E74277F53B200C52338 /* AppDelegate.h */,
 				04315E75277F53B200C52338 /* AppDelegate.m */,
 				04315E77277F53B200C52338 /* SceneDelegate.h */,
 				04315E78277F53B200C52338 /* SceneDelegate.m */,
-				04315E7A277F53B200C52338 /* ViewController.h */,
-				04315E7B277F53B200C52338 /* ViewController.m */,
-				04315EB1277F58A700C52338 /* Login */,
-				04315EB2277F58C000C52338 /* Register */,
-				04315EB3277F595800C52338 /* Kids */,
-				04315F3A2788AF7B00C52338 /* Picker */,
-				04315F4D2789D4C900C52338 /* News */,
+				04315F3A2788AF7B00C52338 /* Picker1 */,
+				04315EB3277F595800C52338 /* Parent1 */,
+				04315F4D2789D4C900C52338 /* Teacher1 */,
 				04315E7D277F53B200C52338 /* Main.storyboard */,
 				04315E80277F53B600C52338 /* Assets.xcassets */,
 				04315E82277F53B600C52338 /* LaunchScreen.storyboard */,
@@ -185,84 +219,14 @@
 			path = PUKUITests;
 			sourceTree = "<group>";
 		};
-		04315EB1277F58A700C52338 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				04315EB4277F599B00C52338 /* LoginModel */,
-				04315EB5277F59A400C52338 /* LoginView */,
-				04315EB6277F59B000C52338 /* LoginController */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		04315EB2277F58C000C52338 /* Register */ = {
-			isa = PBXGroup;
-			children = (
-				04315EC6277F5A3400C52338 /* RegisterModel */,
-				04315EC7277F5A4300C52338 /* RegisterView */,
-				04315EC8277F5A5100C52338 /* RegisterController */,
-			);
-			path = Register;
-			sourceTree = "<group>";
-		};
-		04315EB3277F595800C52338 /* Kids */ = {
+		04315EB3277F595800C52338 /* Parent1 */ = {
 			isa = PBXGroup;
 			children = (
 				04315F2A2788A80F00C52338 /* KidsModel */,
 				04315F292788A80C00C52338 /* KidsView */,
 				04315F282788A5BA00C52338 /* KidsController */,
 			);
-			path = Kids;
-			sourceTree = "<group>";
-		};
-		04315EB4277F599B00C52338 /* LoginModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LoginModel;
-			sourceTree = "<group>";
-		};
-		04315EB5277F59A400C52338 /* LoginView */ = {
-			isa = PBXGroup;
-			children = (
-				04315EB7277F5A0600C52338 /* LoginView.h */,
-				04315EB8277F5A0600C52338 /* LoginView.m */,
-			);
-			path = LoginView;
-			sourceTree = "<group>";
-		};
-		04315EB6277F59B000C52338 /* LoginController */ = {
-			isa = PBXGroup;
-			children = (
-				04315EC0277F5A2B00C52338 /* LoginViewController.h */,
-				04315EC1277F5A2B00C52338 /* LoginViewController.m */,
-			);
-			path = LoginController;
-			sourceTree = "<group>";
-		};
-		04315EC6277F5A3400C52338 /* RegisterModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RegisterModel;
-			sourceTree = "<group>";
-		};
-		04315EC7277F5A4300C52338 /* RegisterView */ = {
-			isa = PBXGroup;
-			children = (
-				04315EC9277F5A8500C52338 /* RegisterView.h */,
-				04315ECA277F5A8500C52338 /* RegisterView.m */,
-			);
-			path = RegisterView;
-			sourceTree = "<group>";
-		};
-		04315EC8277F5A5100C52338 /* RegisterController */ = {
-			isa = PBXGroup;
-			children = (
-				04315ED2277F5A9600C52338 /* RegisterViewController.h */,
-				04315ED3277F5A9600C52338 /* RegisterViewController.m */,
-			);
-			path = RegisterController;
+			path = Parent1;
 			sourceTree = "<group>";
 		};
 		04315F282788A5BA00C52338 /* KidsController */ = {
@@ -279,10 +243,6 @@
 			children = (
 				04315F2B2788A83400C52338 /* KidsView.h */,
 				04315F2C2788A83400C52338 /* KidsView.m */,
-				049AA4E72795E53E00010AFB /* KidPhotoTableViewCell.h */,
-				049AA4E82795E53E00010AFB /* KidPhotoTableViewCell.m */,
-				049AA4ED27988D0D00010AFB /* KidEmotionTableViewCell.h */,
-				049AA4EE27988D0D00010AFB /* KidEmotionTableViewCell.m */,
 			);
 			path = KidsView;
 			sourceTree = "<group>";
@@ -294,14 +254,14 @@
 			name = KidsModel;
 			sourceTree = "<group>";
 		};
-		04315F3A2788AF7B00C52338 /* Picker */ = {
+		04315F3A2788AF7B00C52338 /* Picker1 */ = {
 			isa = PBXGroup;
 			children = (
 				04315F3C2788AFA000C52338 /* PickerModel */,
 				04315F3D2788AFA200C52338 /* PickerView */,
 				04315F3B2788AF8F00C52338 /* PickerController */,
 			);
-			path = Picker;
+			path = Picker1;
 			sourceTree = "<group>";
 		};
 		04315F3B2788AF8F00C52338 /* PickerController */ = {
@@ -330,14 +290,14 @@
 			path = PickerModel;
 			sourceTree = "<group>";
 		};
-		04315F4D2789D4C900C52338 /* News */ = {
+		04315F4D2789D4C900C52338 /* Teacher1 */ = {
 			isa = PBXGroup;
 			children = (
 				04315F4F2789D4D600C52338 /* NewsModel */,
 				04315F502789D4D800C52338 /* NewsView */,
 				04315F4E2789D4D300C52338 /* NewsController */,
 			);
-			path = News;
+			path = Teacher1;
 			sourceTree = "<group>";
 		};
 		04315F4E2789D4D300C52338 /* NewsController */ = {
@@ -380,6 +340,541 @@
 				ED84FFA4E8A4DCD3B7B93B83 /* Pods-PUK.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCB5B21F279BD0BF007B78E2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BCB5B221279BD2B8007B78E2 /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B24D279BFF6E007B78E2 /* KidStateChecking */,
+				BCB5B255279C031F007B78E2 /* PickUpEventEditing */,
+				BCB5B25B279C047F007B78E2 /* SchoolInformation */,
+				BCB5B25A279C046F007B78E2 /* Setting */,
+			);
+			path = Parent;
+			sourceTree = "<group>";
+		};
+		BCB5B222279BD611007B78E2 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B23D279BF8A7007B78E2 /* EventHandling */,
+				BCB5B23C279BF804007B78E2 /* EventChecking */,
+				BCB5B24E279BFFDC007B78E2 /* Setting */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		BCB5B223279BD615007B78E2 /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B27C279C0C7C007B78E2 /* KidStateEditing */,
+				BCB5B27E279C0E98007B78E2 /* PickUpEvent */,
+				BCB5B27B279C0C67007B78E2 /* SchoolInformation */,
+				BCB5B27A279C0C31007B78E2 /* Setting */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		BCB5B224279BD69E007B78E2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B226279BD6B8007B78E2 /* SignUp */,
+				BCB5B225279BD6AF007B78E2 /* SignIn */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BCB5B225279BD6AF007B78E2 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B232279BD9CF007B78E2 /* Model */,
+				BCB5B231279BD9C9007B78E2 /* View */,
+				BCB5B230279BD9B8007B78E2 /* Controller */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		BCB5B226279BD6B8007B78E2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B227279BD881007B78E2 /* Model */,
+				BCB5B228279BD887007B78E2 /* View */,
+				BCB5B229279BD891007B78E2 /* Controller */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		BCB5B227279BD881007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCB5B228279BD887007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B236279BDBA1007B78E2 /* SignUpView.h */,
+				BCB5B237279BDBA1007B78E2 /* SignUpView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B229279BD891007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B239279BDDFD007B78E2 /* SignUpViewController.h */,
+				BCB5B23A279BDDFD007B78E2 /* SignUpViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B230279BD9B8007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B233279BDA1F007B78E2 /* SignInViewController.h */,
+				BCB5B234279BDA1F007B78E2 /* SignInViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B231279BD9C9007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B22A279BD948007B78E2 /* SignInView.h */,
+				BCB5B22B279BD948007B78E2 /* SignInView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B232279BD9CF007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCB5B23C279BF804007B78E2 /* EventChecking */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B246279BFA8C007B78E2 /* Model */,
+				BCB5B245279BFA88007B78E2 /* View */,
+				BCB5B244279BFA81007B78E2 /* Controller */,
+			);
+			path = EventChecking;
+			sourceTree = "<group>";
+		};
+		BCB5B23D279BF8A7007B78E2 /* EventHandling */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B240279BF9B2007B78E2 /* Model */,
+				BCB5B23F279BF9AD007B78E2 /* View */,
+				BCB5B23E279BF9A1007B78E2 /* Controller */,
+			);
+			path = EventHandling;
+			sourceTree = "<group>";
+		};
+		BCB5B23E279BF9A1007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B241279BF9E5007B78E2 /* EventHandlingViewController.h */,
+				BCB5B242279BF9E5007B78E2 /* EventHandlingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B23F279BF9AD007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B24A279BFC08007B78E2 /* EventHandlingView.h */,
+				BCB5B24B279BFC08007B78E2 /* EventHandlingView.m */,
+				049AA4E72795E53E00010AFB /* KidPhotoTableViewCell.h */,
+				049AA4E82795E53E00010AFB /* KidPhotoTableViewCell.m */,
+				049AA4ED27988D0D00010AFB /* KidEmotionTableViewCell.h */,
+				049AA4EE27988D0D00010AFB /* KidEmotionTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B240279BF9B2007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCB5B244279BFA81007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B247279BFAA0007B78E2 /* EventCheckingViewController.h */,
+				BCB5B248279BFAA0007B78E2 /* EventCheckingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B245279BFA88007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B246279BFA8C007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCB5B24D279BFF6E007B78E2 /* KidStateChecking */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B260279C0532007B78E2 /* Model */,
+				BCB5B25F279C052B007B78E2 /* View */,
+				BCB5B25E279C0521007B78E2 /* Controller */,
+			);
+			path = KidStateChecking;
+			sourceTree = "<group>";
+		};
+		BCB5B24E279BFFDC007B78E2 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B251279C000A007B78E2 /* Model */,
+				BCB5B250279C0006007B78E2 /* View */,
+				BCB5B24F279BFFFD007B78E2 /* Controller */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		BCB5B24F279BFFFD007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B252279C002C007B78E2 /* PickerSettingViewController.h */,
+				BCB5B253279C002C007B78E2 /* PickerSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B250279C0006007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B251279C000A007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCB5B255279C031F007B78E2 /* PickUpEventEditing */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B264279C056D007B78E2 /* Menu */,
+				BCB5B257279C03B9007B78E2 /* Order */,
+				BCB5B256279C03A9007B78E2 /* Check */,
+				BCB5B258279C03C2007B78E2 /* Modify */,
+			);
+			path = PickUpEventEditing;
+			sourceTree = "<group>";
+		};
+		BCB5B256279C03A9007B78E2 /* Check */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Check;
+			sourceTree = "<group>";
+		};
+		BCB5B257279C03B9007B78E2 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		BCB5B258279C03C2007B78E2 /* Modify */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modify;
+			sourceTree = "<group>";
+		};
+		BCB5B25A279C046F007B78E2 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B273279C068D007B78E2 /* Model */,
+				BCB5B272279C0688007B78E2 /* View */,
+				BCB5B271279C0682007B78E2 /* Controller */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		BCB5B25B279C047F007B78E2 /* SchoolInformation */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B26D279C05DE007B78E2 /* Model */,
+				BCB5B26C279C05D6007B78E2 /* View */,
+				BCB5B26B279C05CC007B78E2 /* Controller */,
+			);
+			path = SchoolInformation;
+			sourceTree = "<group>";
+		};
+		BCB5B25E279C0521007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B261279C0556007B78E2 /* KidStateCheckingViewController.h */,
+				BCB5B262279C0556007B78E2 /* KidStateCheckingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B25F279C052B007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B260279C0532007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCB5B264279C056D007B78E2 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B267279C0586007B78E2 /* Model */,
+				BCB5B266279C0582007B78E2 /* View */,
+				BCB5B265279C0577007B78E2 /* Controller */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		BCB5B265279C0577007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B268279C05B2007B78E2 /* EditingMenuViewController.h */,
+				BCB5B269279C05B2007B78E2 /* EditingMenuViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B266279C0582007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B267279C0586007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCB5B26B279C05CC007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B26E279C0674007B78E2 /* SchoolInformationViewController.h */,
+				BCB5B26F279C0674007B78E2 /* SchoolInformationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B26C279C05D6007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B26D279C05DE007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCB5B271279C0682007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B274279C06B0007B78E2 /* ParentSettingViewController.h */,
+				BCB5B275279C06B0007B78E2 /* ParentSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B272279C0688007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B273279C068D007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCB5B27A279C0C31007B78E2 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B28F279C7EF2007B78E2 /* Model */,
+				BCB5B28E279C7EED007B78E2 /* View */,
+				BCB5B28D279C7ED8007B78E2 /* Controller */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		BCB5B27B279C0C67007B78E2 /* SchoolInformation */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B28C279C7ED2007B78E2 /* Model */,
+				BCB5B28B279C7ECD007B78E2 /* View */,
+				BCB5B28A279C7EC3007B78E2 /* Controller */,
+			);
+			path = SchoolInformation;
+			sourceTree = "<group>";
+		};
+		BCB5B27C279C0C7C007B78E2 /* KidStateEditing */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B282279C0F53007B78E2 /* Model */,
+				BCB5B281279C0F4E007B78E2 /* View */,
+				BCB5B280279C0F4A007B78E2 /* Controller */,
+				BCB5B27F279C0F34007B78E2 /* KidInformation */,
+			);
+			path = KidStateEditing;
+			sourceTree = "<group>";
+		};
+		BCB5B27E279C0E98007B78E2 /* PickUpEvent */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B289279C1022007B78E2 /* Model */,
+				BCB5B288279C101E007B78E2 /* View */,
+				BCB5B287279C1019007B78E2 /* Controller */,
+				BCB5B286279C0FF7007B78E2 /* PickUpEventChecking */,
+			);
+			path = PickUpEvent;
+			sourceTree = "<group>";
+		};
+		BCB5B27F279C0F34007B78E2 /* KidInformation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KidInformation;
+			sourceTree = "<group>";
+		};
+		BCB5B280279C0F4A007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B283279C0FD3007B78E2 /* KidStateEditingViewController.h */,
+				BCB5B284279C0FD3007B78E2 /* KidStateEditingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B281279C0F4E007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B282279C0F53007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCB5B286279C0FF7007B78E2 /* PickUpEventChecking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PickUpEventChecking;
+			sourceTree = "<group>";
+		};
+		BCB5B287279C1019007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B290279C7F54007B78E2 /* EventConfirmViewController.h */,
+				BCB5B291279C7F54007B78E2 /* EventConfirmViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B288279C101E007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B289279C1022007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCB5B28A279C7EC3007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B293279C7FCE007B78E2 /* SchoolInformationEditingViewController.h */,
+				BCB5B294279C7FCE007B78E2 /* SchoolInformationEditingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B28B279C7ECD007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B28C279C7ED2007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCB5B28D279C7ED8007B78E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5B296279C7FE3007B78E2 /* TeacherSettingViewController.h */,
+				BCB5B297279C7FE3007B78E2 /* TeacherSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCB5B28E279C7EED007B78E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCB5B28F279C7EF2007B78E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -537,22 +1032,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04315E7C277F53B200C52338 /* ViewController.m in Sources */,
+				BCB5B298279C7FE3007B78E2 /* TeacherSettingViewController.m in Sources */,
+				BCB5B238279BDBA1007B78E2 /* SignUpView.m in Sources */,
+				BCB5B295279C7FCE007B78E2 /* SchoolInformationEditingViewController.m in Sources */,
+				BCB5B249279BFAA0007B78E2 /* EventCheckingViewController.m in Sources */,
+				BCB5B235279BDA1F007B78E2 /* SignInViewController.m in Sources */,
 				04315F5C2789D54700C52338 /* NewsView.m in Sources */,
+				BCB5B276279C06B0007B78E2 /* ParentSettingViewController.m in Sources */,
+				BCB5B26A279C05B2007B78E2 /* EditingMenuViewController.m in Sources */,
+				BCB5B24C279BFC08007B78E2 /* EventHandlingView.m in Sources */,
+				BCB5B23B279BDDFD007B78E2 /* SignUpViewController.m in Sources */,
 				04315E76277F53B200C52338 /* AppDelegate.m in Sources */,
-				04315EC2277F5A2B00C52338 /* LoginViewController.m in Sources */,
+				BCB5B263279C0556007B78E2 /* KidStateCheckingViewController.m in Sources */,
 				04315E87277F53B600C52338 /* main.m in Sources */,
-				04315EB9277F5A0600C52338 /* LoginView.m in Sources */,
 				04315F2D2788A83400C52338 /* KidsView.m in Sources */,
 				04315F532789D53B00C52338 /* NewsViewController.m in Sources */,
+				BCB5B292279C7F54007B78E2 /* EventConfirmViewController.m in Sources */,
 				04315E79277F53B200C52338 /* SceneDelegate.m in Sources */,
 				04315F362788A84100C52338 /* KidsViewController.m in Sources */,
 				049AA4EF27988D0D00010AFB /* KidEmotionTableViewCell.m in Sources */,
-				04315ECB277F5A8500C52338 /* RegisterView.m in Sources */,
-				04315ED4277F5A9600C52338 /* RegisterViewController.m in Sources */,
 				04315F462789CAF400C52338 /* PickerViewController.m in Sources */,
 				04315F402789CAE400C52338 /* PickerView.m in Sources */,
+				BCB5B270279C0674007B78E2 /* SchoolInformationViewController.m in Sources */,
+				BCB5B254279C002C007B78E2 /* PickerSettingViewController.m in Sources */,
 				049AA4E92795E53E00010AFB /* KidPhotoTableViewCell.m in Sources */,
+				BCB5B243279BF9E5007B78E2 /* EventHandlingViewController.m in Sources */,
+				BCB5B285279C0FD3007B78E2 /* KidStateEditingViewController.m in Sources */,
+				BCB5B22C279BD948007B78E2 /* SignInView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

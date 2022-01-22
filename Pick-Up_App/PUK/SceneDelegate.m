@@ -6,7 +6,7 @@
 //
 
 #import "SceneDelegate.h"
-#import "LoginViewController.h"
+#import "SignInViewController.h"
 
 @interface SceneDelegate ()
 
@@ -16,8 +16,8 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
-    LoginViewController* loginViewController = [[LoginViewController alloc] init];
-    _window.rootViewController = loginViewController;
+    SignInViewController *signInViewController = [[SignInViewController alloc] init];
+    _window.rootViewController = signInViewController;
 }
 
 
