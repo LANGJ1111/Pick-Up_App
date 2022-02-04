@@ -5,9 +5,9 @@
 //  Created by mac on 2021/12/31.
 //
 
+#import <AMapFoundationKit/AMapFoundationKit.h>
 #import "AppDelegate.h"
 #import "SignInViewController.h"
-
 
 @interface AppDelegate ()
 
@@ -17,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [AMapServices sharedServices].apiKey = @"d3f9d18b24f42592c22b99e52d387557";
     
     return YES;
 }

@@ -67,7 +67,7 @@
         tabBarController.tabBar.tintColor = [UIColor colorWithRed:0.2 green:0.6 blue:0.9 alpha:1];
         tabBarController.tabBar.barTintColor = [UIColor whiteColor];
         tabBarController.tabBar.translucent = YES;
-
+        
         UIWindow* window = [UIApplication sharedApplication].windows[0];
         window.rootViewController = tabBarController;
         

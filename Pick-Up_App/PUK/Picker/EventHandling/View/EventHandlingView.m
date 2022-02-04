@@ -8,6 +8,7 @@
 #import "EventHandlingView.h"
 #import "Masonry.h"
 #import "KidPhotoTableViewCell.h"
+
 #define SIZE_WIDTH ([UIScreen mainScreen].bounds.size.width)
 #define SIZE_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 
@@ -15,7 +16,7 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
-    self.backgroundColor = [UIColor yellowColor];
+    self.backgroundColor = [UIColor redColor];
     
     _KidNameListArray = @[@"11111", @"22222", @"33333", @"44444", @"55555"];
     
@@ -96,6 +97,10 @@
 
     UITableViewCell* normalCell = [_mainKidTableView dequeueReusableCellWithIdentifier:@"normal" forIndexPath:indexPath];
     return normalCell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"eventHandlingCell" object:nil];
 }
 
 @end

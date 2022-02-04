@@ -1,5 +1,10 @@
-platform :ios, '7.0'
+platform :ios, '14.0'
+
 target 'PUK' do
+
 pod 'Masonry'
+
+pod 'AMap2DMap' 
+
 end
 
