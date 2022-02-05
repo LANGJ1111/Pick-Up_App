@@ -6,11 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseScanVC.h"
+#import "BaseScanViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ScanQRCodeViewController : BaseScanVC
+@interface ScanQRCodeViewController : BaseScanViewController
 
 @end
 

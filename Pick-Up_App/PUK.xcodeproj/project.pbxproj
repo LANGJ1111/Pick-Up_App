@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,7 @@
 		BC9919FF27AC56E700473A8A /* ScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9919FE27AC56E700473A8A /* ScanQRCodeViewController.m */; };
 		BC991A0227AC623C00473A8A /* ConfirmNumericalCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC991A0127AC623C00473A8A /* ConfirmNumericalCodeViewController.m */; };
 		BC991A0427ACEE0F00473A8A /* fanhui111.png in Resources */ = {isa = PBXBuildFile; fileRef = BC991A0327ACEE0F00473A8A /* fanhui111.png */; };
+		BC991A0727AE3CF300473A8A /* BaseScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC991A0627AE3CF300473A8A /* BaseScanViewController.m */; };
 		BCB5B22C279BD948007B78E2 /* SignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B22B279BD948007B78E2 /* SignInView.m */; };
 		BCB5B235279BDA1F007B78E2 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B234279BDA1F007B78E2 /* SignInViewController.m */; };
 		BCB5B238279BDBA1007B78E2 /* SignUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B237279BDBA1007B78E2 /* SignUpView.m */; };
@@ -108,6 +109,8 @@
 		BC991A0027AC623C00473A8A /* ConfirmNumericalCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmNumericalCodeViewController.h; sourceTree = "<group>"; };
 		BC991A0127AC623C00473A8A /* ConfirmNumericalCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmNumericalCodeViewController.m; sourceTree = "<group>"; };
 		BC991A0327ACEE0F00473A8A /* fanhui111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fanhui111.png; path = ../../../../../Downloads/fanhui111.png; sourceTree = "<group>"; };
+		BC991A0527AE3CF300473A8A /* BaseScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseScanViewController.h; sourceTree = "<group>"; };
+		BC991A0627AE3CF300473A8A /* BaseScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseScanViewController.m; sourceTree = "<group>"; };
 		BCB5B22A279BD948007B78E2 /* SignInView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInView.h; sourceTree = "<group>"; };
 		BCB5B22B279BD948007B78E2 /* SignInView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInView.m; sourceTree = "<group>"; };
 		BCB5B233279BDA1F007B78E2 /* SignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
@@ -412,6 +415,8 @@
 				BCB5B242279BF9E5007B78E2 /* EventHandlingViewController.m */,
 				BC9919F727AC479300473A8A /* SpecificEventViewController.h */,
 				BC9919F827AC479300473A8A /* SpecificEventViewController.m */,
+				BC991A0527AE3CF300473A8A /* BaseScanViewController.h */,
+				BC991A0627AE3CF300473A8A /* BaseScanViewController.m */,
 				BC9919FD27AC56E700473A8A /* ScanQRCodeViewController.h */,
 				BC9919FE27AC56E700473A8A /* ScanQRCodeViewController.m */,
 				BC991A0027AC623C00473A8A /* ConfirmNumericalCodeViewController.h */,
@@ -1071,6 +1076,7 @@
 				04315E76277F53B200C52338 /* AppDelegate.m in Sources */,
 				BCB5B263279C0556007B78E2 /* KidStateCheckingViewController.m in Sources */,
 				BC9919FC27AC4C9700473A8A /* SpecificEventView.m in Sources */,
+				BC991A0727AE3CF300473A8A /* BaseScanViewController.m in Sources */,
 				04315E87277F53B600C52338 /* main.m in Sources */,
 				BCB5B292279C7F54007B78E2 /* EventConfirmViewController.m in Sources */,
 				04315E79277F53B200C52338 /* SceneDelegate.m in Sources */,
@@ -1264,7 +1270,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = GGGGGG.PUK;
+				PRODUCT_BUNDLE_IDENTIFIER = GGGGG.PUK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1284,7 +1290,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = GGGGGG.PUK;
+				PRODUCT_BUNDLE_IDENTIFIER = GGGGG.PUK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1295,7 +1301,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6393BBMNNK;
+				DEVELOPMENT_TEAM = 79X9GJM4FD;
 				INFOPLIST_FILE = PUKTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1315,7 +1321,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6393BBMNNK;
+				DEVELOPMENT_TEAM = 79X9GJM4FD;
 				INFOPLIST_FILE = PUKTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
