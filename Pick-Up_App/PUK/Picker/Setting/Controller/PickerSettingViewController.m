@@ -16,7 +16,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor blueColor];
+    _pickerSettingView = [[PickerSettingView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:_pickerSettingView];
 }
 
 @end

@@ -1,14 +1,13 @@
 //
-//  QRcodeTool.m
-//  ScanQRCode
+//  ScanQRCodeTool.m
+//  PUK
 //
-//  Created by 杜文亮 on 2017/9/18.
-//  Copyright © 2017年 杜文亮. All rights reserved.
+//  Created by 浪极 on 2022/2/5.
 //
 
-#import "QRcodeTool.h"
+#import "ScanQRCodeTool.h"
 
-@implementation QRcodeTool
+@implementation ScanQRCodeTool
 
 #pragma mark - 生成二维码原理
 
@@ -307,7 +306,5 @@ void ProviderReleaseData (void *info, const void *data, size_t size){
         return nil;
     }
 }
-
-
 
 @end

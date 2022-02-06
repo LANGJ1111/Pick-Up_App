@@ -1,20 +1,13 @@
 //
-//  QRcodeTool.h
-//  ScanQRCode
+//  ScanQRCodeTool.h
+//  PUK
 //
-//  Created by 杜文亮 on 2017/9/18.
-//  Copyright © 2017年 杜文亮. All rights reserved.
+//  Created by 浪极 on 2022/2/5.
 //
-
-
-/*
- *   二维码的生成和识别
- */
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-@interface QRcodeTool : NSObject
+@interface ScanQRCodeTool : NSObject
 
 /*
  *                              生成二维码，这里提供了两种方式

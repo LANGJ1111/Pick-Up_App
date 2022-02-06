@@ -17,15 +17,28 @@
 		04315E9C277F53B700C52338 /* PUKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04315E9B277F53B700C52338 /* PUKUITests.m */; };
 		049AA4E92795E53E00010AFB /* KidPhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AA4E82795E53E00010AFB /* KidPhotoTableViewCell.m */; };
 		049AA4EF27988D0D00010AFB /* KidEmotionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049AA4EE27988D0D00010AFB /* KidEmotionTableViewCell.m */; };
-		8585951EA3AAA684E3AAD848 /* libPods-PUK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4772A28DC2159AF596994 /* libPods-PUK.a */; };
-		BC9919F027AAE3C300473A8A /* QRcodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9919EC27AAE3C300473A8A /* QRcodeTool.m */; };
-		BC9919F127AAE3C300473A8A /* CreatQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9919EE27AAE3C300473A8A /* CreatQRCodeVC.m */; };
+		254A0A92A1FA5AD660C2D027 /* libPods-PUK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A4772A28DC2159AF596994 /* libPods-PUK.a */; };
 		BC9919F927AC479300473A8A /* SpecificEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9919F827AC479300473A8A /* SpecificEventViewController.m */; };
 		BC9919FC27AC4C9700473A8A /* SpecificEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9919FB27AC4C9700473A8A /* SpecificEventView.m */; };
 		BC9919FF27AC56E700473A8A /* ScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9919FE27AC56E700473A8A /* ScanQRCodeViewController.m */; };
 		BC991A0227AC623C00473A8A /* ConfirmNumericalCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC991A0127AC623C00473A8A /* ConfirmNumericalCodeViewController.m */; };
 		BC991A0427ACEE0F00473A8A /* fanhui111.png in Resources */ = {isa = PBXBuildFile; fileRef = BC991A0327ACEE0F00473A8A /* fanhui111.png */; };
 		BC991A0727AE3CF300473A8A /* BaseScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC991A0627AE3CF300473A8A /* BaseScanViewController.m */; };
+		BC991A0A27AE411900473A8A /* ScanQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BC991A0927AE411900473A8A /* ScanQRCodeTool.m */; };
+		BC991A0D27AFAA8000473A8A /* PickerNameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC991A0C27AFAA8000473A8A /* PickerNameTableViewCell.m */; };
+		BC991A0F27AFAD8700473A8A /* pic10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC991A0E27AFAD8600473A8A /* pic10.jpg */; };
+		BC991A1527AFAD8F00473A8A /* pic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC991A1027AFAD8F00473A8A /* pic2.jpg */; };
+		BC991A1627AFAD8F00473A8A /* pic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC991A1127AFAD8F00473A8A /* pic4.jpg */; };
+		BC991A1727AFAD8F00473A8A /* pic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC991A1227AFAD8F00473A8A /* pic5.jpg */; };
+		BC991A1827AFAD8F00473A8A /* pic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC991A1327AFAD8F00473A8A /* pic3.jpg */; };
+		BC991A1927AFAD8F00473A8A /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC991A1427AFAD8F00473A8A /* pic1.jpg */; };
+		BC991A1E27AFAD9500473A8A /* zhankai.png in Resources */ = {isa = PBXBuildFile; fileRef = BC991A1A27AFAD9500473A8A /* zhankai.png */; };
+		BC991A1F27AFAD9500473A8A /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = BC991A1B27AFAD9500473A8A /* arrow-right.png */; };
+		BC991A2027AFAD9500473A8A /* shouqi.png in Resources */ = {isa = PBXBuildFile; fileRef = BC991A1C27AFAD9500473A8A /* shouqi.png */; };
+		BC991A2127AFAD9500473A8A /* laba.png in Resources */ = {isa = PBXBuildFile; fileRef = BC991A1D27AFAD9500473A8A /* laba.png */; };
+		BC991A2427AFB03000473A8A /* PickerSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC991A2327AFB03000473A8A /* PickerSettingView.m */; };
+		BC991A2727AFB0DA00473A8A /* SchoolInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC991A2627AFB0DA00473A8A /* SchoolInformationView.m */; };
+		BC991A2A27AFB13F00473A8A /* SchoolInformationNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC991A2927AFB13F00473A8A /* SchoolInformationNewsTableViewCell.m */; };
 		BCB5B22C279BD948007B78E2 /* SignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B22B279BD948007B78E2 /* SignInView.m */; };
 		BCB5B235279BDA1F007B78E2 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B234279BDA1F007B78E2 /* SignInViewController.m */; };
 		BCB5B238279BDBA1007B78E2 /* SignUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B237279BDBA1007B78E2 /* SignUpView.m */; };
@@ -48,10 +61,6 @@
 		BCB5B2D6279C891A007B78E2 /* pick_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB5B2D2279C891A007B78E2 /* pick_bg@2x.png */; };
 		BCB5B2D9279C8920007B78E2 /* qrcode_scanline_qrcode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB5B2D7279C8920007B78E2 /* qrcode_scanline_qrcode@2x.png */; };
 		BCB5B2DA279C8920007B78E2 /* qrcode_border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB5B2D8279C8920007B78E2 /* qrcode_border@2x.png */; };
-		BCB5B2E3279C8941007B78E2 /* ScanGUIOne.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B2DC279C8941007B78E2 /* ScanGUIOne.m */; };
-		BCB5B2E4279C8941007B78E2 /* BaseScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B2DD279C8941007B78E2 /* BaseScanVC.m */; };
-		BCB5B2E5279C8941007B78E2 /* ScanGUIThree.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B2DE279C8941007B78E2 /* ScanGUIThree.m */; };
-		BCB5B2E6279C8941007B78E2 /* ScanGUITwo.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5B2E1279C8941007B78E2 /* ScanGUITwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,12 +103,6 @@
 		049AA4EE27988D0D00010AFB /* KidEmotionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidEmotionTableViewCell.m; sourceTree = "<group>"; };
 		1B4C29C7948AD71EE9718D5B /* Pods-PUK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUK.debug.xcconfig"; path = "Target Support Files/Pods-PUK/Pods-PUK.debug.xcconfig"; sourceTree = "<group>"; };
 		83A4772A28DC2159AF596994 /* libPods-PUK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PUK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC9919EC27AAE3C300473A8A /* QRcodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QRcodeTool.m; path = "../../../../../../../Downloads/ScanQRCode-master-4/ScanQRCode/QRcodeTool.m"; sourceTree = "<group>"; };
-		BC9919ED27AAE3C300473A8A /* QRcodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QRcodeTool.h; path = "../../../../../../../Downloads/ScanQRCode-master-4/ScanQRCode/QRcodeTool.h"; sourceTree = "<group>"; };
-		BC9919EE27AAE3C300473A8A /* CreatQRCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreatQRCodeVC.m; path = "../../../../../../../Downloads/ScanQRCode-master-4/ScanQRCode/CreatQRCodeVC.m"; sourceTree = "<group>"; };
-		BC9919EF27AAE3C300473A8A /* CreatQRCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreatQRCodeVC.h; path = "../../../../../../../Downloads/ScanQRCode-master-4/ScanQRCode/CreatQRCodeVC.h"; sourceTree = "<group>"; };
-		BC9919F227AAE4E100473A8A /* QRcodeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRcodeTool.m; sourceTree = "<group>"; };
-		BC9919F327AAE4E100473A8A /* QRcodeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRcodeTool.h; sourceTree = "<group>"; };
 		BC9919F727AC479300473A8A /* SpecificEventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecificEventViewController.h; sourceTree = "<group>"; };
 		BC9919F827AC479300473A8A /* SpecificEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecificEventViewController.m; sourceTree = "<group>"; };
 		BC9919FA27AC4C9700473A8A /* SpecificEventView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecificEventView.h; sourceTree = "<group>"; };
@@ -111,6 +114,26 @@
 		BC991A0327ACEE0F00473A8A /* fanhui111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fanhui111.png; path = ../../../../../Downloads/fanhui111.png; sourceTree = "<group>"; };
 		BC991A0527AE3CF300473A8A /* BaseScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseScanViewController.h; sourceTree = "<group>"; };
 		BC991A0627AE3CF300473A8A /* BaseScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseScanViewController.m; sourceTree = "<group>"; };
+		BC991A0827AE411900473A8A /* ScanQRCodeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanQRCodeTool.h; sourceTree = "<group>"; };
+		BC991A0927AE411900473A8A /* ScanQRCodeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanQRCodeTool.m; sourceTree = "<group>"; };
+		BC991A0B27AFAA8000473A8A /* PickerNameTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerNameTableViewCell.h; sourceTree = "<group>"; };
+		BC991A0C27AFAA8000473A8A /* PickerNameTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerNameTableViewCell.m; sourceTree = "<group>"; };
+		BC991A0E27AFAD8600473A8A /* pic10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic10.jpg; sourceTree = "<group>"; };
+		BC991A1027AFAD8F00473A8A /* pic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpg; sourceTree = "<group>"; };
+		BC991A1127AFAD8F00473A8A /* pic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic4.jpg; sourceTree = "<group>"; };
+		BC991A1227AFAD8F00473A8A /* pic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic5.jpg; sourceTree = "<group>"; };
+		BC991A1327AFAD8F00473A8A /* pic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic3.jpg; sourceTree = "<group>"; };
+		BC991A1427AFAD8F00473A8A /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpg; sourceTree = "<group>"; };
+		BC991A1A27AFAD9500473A8A /* zhankai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhankai.png; sourceTree = "<group>"; };
+		BC991A1B27AFAD9500473A8A /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		BC991A1C27AFAD9500473A8A /* shouqi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shouqi.png; sourceTree = "<group>"; };
+		BC991A1D27AFAD9500473A8A /* laba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laba.png; sourceTree = "<group>"; };
+		BC991A2227AFB03000473A8A /* PickerSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerSettingView.h; sourceTree = "<group>"; };
+		BC991A2327AFB03000473A8A /* PickerSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerSettingView.m; sourceTree = "<group>"; };
+		BC991A2527AFB0DA00473A8A /* SchoolInformationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolInformationView.h; sourceTree = "<group>"; };
+		BC991A2627AFB0DA00473A8A /* SchoolInformationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolInformationView.m; sourceTree = "<group>"; };
+		BC991A2827AFB13F00473A8A /* SchoolInformationNewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolInformationNewsTableViewCell.h; sourceTree = "<group>"; };
+		BC991A2927AFB13F00473A8A /* SchoolInformationNewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolInformationNewsTableViewCell.m; sourceTree = "<group>"; };
 		BCB5B22A279BD948007B78E2 /* SignInView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInView.h; sourceTree = "<group>"; };
 		BCB5B22B279BD948007B78E2 /* SignInView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInView.m; sourceTree = "<group>"; };
 		BCB5B233279BDA1F007B78E2 /* SignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
@@ -149,14 +172,6 @@
 		BCB5B2D2279C891A007B78E2 /* pick_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pick_bg@2x.png"; path = "../../../../../../../Downloads/ScanQRCode-master-3/ScanQRCode/Images/ScanGUIOne/pick_bg@2x.png"; sourceTree = "<group>"; };
 		BCB5B2D7279C8920007B78E2 /* qrcode_scanline_qrcode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "qrcode_scanline_qrcode@2x.png"; path = "../../../../../../../Downloads/ScanQRCode-master-3/ScanQRCode/Images/ScanGUITwo/qrcode_scanline_qrcode@2x.png"; sourceTree = "<group>"; };
 		BCB5B2D8279C8920007B78E2 /* qrcode_border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "qrcode_border@2x.png"; path = "../../../../../../../Downloads/ScanQRCode-master-3/ScanQRCode/Images/ScanGUITwo/qrcode_border@2x.png"; sourceTree = "<group>"; };
-		BCB5B2DB279C8941007B78E2 /* BaseScanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseScanVC.h; path = "../../../../../../../Downloads/ScanQRCode-master-3/ScanQRCode/BaseScanVC.h"; sourceTree = "<group>"; };
-		BCB5B2DC279C8941007B78E2 /* ScanGUIOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScanGUIOne.m; path = "../../../../../../../Downloads/ScanQRCode-master-3/ScanQRCode/ScanGUIOne.m"; sourceTree = "<group>"; };
-		BCB5B2DD279C8941007B78E2 /* BaseScanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseScanVC.m; path = "../../../../../../../Downloads/ScanQRCode-master-3/ScanQRCode/BaseScanVC.m"; sourceTree = "<group>"; };
-		BCB5B2DE279C8941007B78E2 /* ScanGUIThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScanGUIThree.m; path = "../../../../../../../Downloads/ScanQRCode-master-3/ScanQRCode/ScanGUIThree.m"; sourceTree = "<group>"; };
-		BCB5B2DF279C8941007B78E2 /* ScanGUIThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScanGUIThree.h; path = "../../../../../../../Downloads/ScanQRCode-master-3/ScanQRCode/ScanGUIThree.h"; sourceTree = "<group>"; };
-		BCB5B2E0279C8941007B78E2 /* ScanGUIOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScanGUIOne.h; path = "../../../../../../../Downloads/ScanQRCode-master-3/ScanQRCode/ScanGUIOne.h"; sourceTree = "<group>"; };
-		BCB5B2E1279C8941007B78E2 /* ScanGUITwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScanGUITwo.m; path = "../../../../../../../Downloads/ScanQRCode-master-3/ScanQRCode/ScanGUITwo.m"; sourceTree = "<group>"; };
-		BCB5B2E2279C8941007B78E2 /* ScanGUITwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScanGUITwo.h; path = "../../../../../../../Downloads/ScanQRCode-master-3/ScanQRCode/ScanGUITwo.h"; sourceTree = "<group>"; };
 		ED84FFA4E8A4DCD3B7B93B83 /* Pods-PUK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUK.release.xcconfig"; path = "Target Support Files/Pods-PUK/Pods-PUK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,7 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8585951EA3AAA684E3AAD848 /* libPods-PUK.a in Frameworks */,
+				254A0A92A1FA5AD660C2D027 /* libPods-PUK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +415,6 @@
 		BCB5B23D279BF8A7007B78E2 /* EventHandling */ = {
 			isa = PBXGroup;
 			children = (
-				BCB5B299279C866B007B78E2 /* ScanQRCode */,
 				BCB5B240279BF9B2007B78E2 /* Model */,
 				BCB5B23F279BF9AD007B78E2 /* View */,
 				BCB5B23E279BF9A1007B78E2 /* Controller */,
@@ -434,6 +448,8 @@
 				049AA4E82795E53E00010AFB /* KidPhotoTableViewCell.m */,
 				049AA4ED27988D0D00010AFB /* KidEmotionTableViewCell.h */,
 				049AA4EE27988D0D00010AFB /* KidEmotionTableViewCell.m */,
+				BC991A0B27AFAA8000473A8A /* PickerNameTableViewCell.h */,
+				BC991A0C27AFAA8000473A8A /* PickerNameTableViewCell.m */,
 				BC9919FA27AC4C9700473A8A /* SpecificEventView.h */,
 				BC9919FB27AC4C9700473A8A /* SpecificEventView.m */,
 			);
@@ -443,8 +459,8 @@
 		BCB5B240279BF9B2007B78E2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BC9919F327AAE4E100473A8A /* QRcodeTool.h */,
-				BC9919F227AAE4E100473A8A /* QRcodeTool.m */,
+				BC991A0827AE411900473A8A /* ScanQRCodeTool.h */,
+				BC991A0927AE411900473A8A /* ScanQRCodeTool.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -504,6 +520,8 @@
 		BCB5B250279C0006007B78E2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BC991A2227AFB03000473A8A /* PickerSettingView.h */,
+				BC991A2327AFB03000473A8A /* PickerSettingView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -635,6 +653,10 @@
 		BCB5B26C279C05D6007B78E2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BC991A2527AFB0DA00473A8A /* SchoolInformationView.h */,
+				BC991A2627AFB0DA00473A8A /* SchoolInformationView.m */,
+				BC991A2827AFB13F00473A8A /* SchoolInformationNewsTableViewCell.h */,
+				BC991A2927AFB13F00473A8A /* SchoolInformationNewsTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -817,25 +839,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		BCB5B299279C866B007B78E2 /* ScanQRCode */ = {
-			isa = PBXGroup;
-			children = (
-				BC9919EF27AAE3C300473A8A /* CreatQRCodeVC.h */,
-				BC9919EE27AAE3C300473A8A /* CreatQRCodeVC.m */,
-				BC9919ED27AAE3C300473A8A /* QRcodeTool.h */,
-				BC9919EC27AAE3C300473A8A /* QRcodeTool.m */,
-				BCB5B2DB279C8941007B78E2 /* BaseScanVC.h */,
-				BCB5B2DD279C8941007B78E2 /* BaseScanVC.m */,
-				BCB5B2E0279C8941007B78E2 /* ScanGUIOne.h */,
-				BCB5B2DC279C8941007B78E2 /* ScanGUIOne.m */,
-				BCB5B2E2279C8941007B78E2 /* ScanGUITwo.h */,
-				BCB5B2E1279C8941007B78E2 /* ScanGUITwo.m */,
-				BCB5B2DF279C8941007B78E2 /* ScanGUIThree.h */,
-				BCB5B2DE279C8941007B78E2 /* ScanGUIThree.m */,
-			);
-			path = ScanQRCode;
-			sourceTree = "<group>";
-		};
 		BCB5B29A279C86AB007B78E2 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -846,6 +849,16 @@
 		BCB5B29B279C86B3007B78E2 /* Picker */ = {
 			isa = PBXGroup;
 			children = (
+				BC991A0E27AFAD8600473A8A /* pic10.jpg */,
+				BC991A1427AFAD8F00473A8A /* pic1.jpg */,
+				BC991A1027AFAD8F00473A8A /* pic2.jpg */,
+				BC991A1327AFAD8F00473A8A /* pic3.jpg */,
+				BC991A1127AFAD8F00473A8A /* pic4.jpg */,
+				BC991A1227AFAD8F00473A8A /* pic5.jpg */,
+				BC991A1B27AFAD9500473A8A /* arrow-right.png */,
+				BC991A1D27AFAD9500473A8A /* laba.png */,
+				BC991A1C27AFAD9500473A8A /* shouqi.png */,
+				BC991A1A27AFAD9500473A8A /* zhankai.png */,
 				BCB5B29E279C86D8007B78E2 /* ScanQRCode */,
 			);
 			path = Picker;
@@ -982,15 +995,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC991A1727AFAD8F00473A8A /* pic5.jpg in Resources */,
+				BC991A1827AFAD8F00473A8A /* pic3.jpg in Resources */,
+				BC991A2027AFAD9500473A8A /* shouqi.png in Resources */,
 				BCB5B2D6279C891A007B78E2 /* pick_bg@2x.png in Resources */,
+				BC991A1527AFAD8F00473A8A /* pic2.jpg in Resources */,
+				BC991A1927AFAD8F00473A8A /* pic1.jpg in Resources */,
 				BCB5B2D9279C8920007B78E2 /* qrcode_scanline_qrcode@2x.png in Resources */,
 				BCB5B2D3279C891A007B78E2 /* line@2x.png in Resources */,
 				BCB5B2DA279C8920007B78E2 /* qrcode_border@2x.png in Resources */,
+				BC991A1F27AFAD9500473A8A /* arrow-right.png in Resources */,
 				BCB5B2D5279C891A007B78E2 /* pick_bg.png in Resources */,
+				BC991A2127AFAD9500473A8A /* laba.png in Resources */,
+				BC991A1627AFAD8F00473A8A /* pic4.jpg in Resources */,
 				BCB5B2D4279C891A007B78E2 /* line.png in Resources */,
 				04315E84277F53B600C52338 /* LaunchScreen.storyboard in Resources */,
+				BC991A0F27AFAD8700473A8A /* pic10.jpg in Resources */,
 				04315E81277F53B600C52338 /* Assets.xcassets in Resources */,
 				BC991A0427ACEE0F00473A8A /* fanhui111.png in Resources */,
+				BC991A1E27AFAD9500473A8A /* zhankai.png in Resources */,
 				04315E7F277F53B200C52338 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1064,14 +1087,14 @@
 				BCB5B295279C7FCE007B78E2 /* SchoolInformationEditingViewController.m in Sources */,
 				BCB5B249279BFAA0007B78E2 /* EventCheckingViewController.m in Sources */,
 				BC9919F927AC479300473A8A /* SpecificEventViewController.m in Sources */,
+				BC991A2A27AFB13F00473A8A /* SchoolInformationNewsTableViewCell.m in Sources */,
 				BCB5B235279BDA1F007B78E2 /* SignInViewController.m in Sources */,
-				BC9919F027AAE3C300473A8A /* QRcodeTool.m in Sources */,
-				BCB5B2E4279C8941007B78E2 /* BaseScanVC.m in Sources */,
 				BCB5B276279C06B0007B78E2 /* ParentSettingViewController.m in Sources */,
 				BCB5B26A279C05B2007B78E2 /* EditingMenuViewController.m in Sources */,
 				BCB5B24C279BFC08007B78E2 /* EventHandlingView.m in Sources */,
+				BC991A0D27AFAA8000473A8A /* PickerNameTableViewCell.m in Sources */,
+				BC991A2427AFB03000473A8A /* PickerSettingView.m in Sources */,
 				BCB5B23B279BDDFD007B78E2 /* SignUpViewController.m in Sources */,
-				BCB5B2E6279C8941007B78E2 /* ScanGUITwo.m in Sources */,
 				BC991A0227AC623C00473A8A /* ConfirmNumericalCodeViewController.m in Sources */,
 				04315E76277F53B200C52338 /* AppDelegate.m in Sources */,
 				BCB5B263279C0556007B78E2 /* KidStateCheckingViewController.m in Sources */,
@@ -1079,17 +1102,16 @@
 				BC991A0727AE3CF300473A8A /* BaseScanViewController.m in Sources */,
 				04315E87277F53B600C52338 /* main.m in Sources */,
 				BCB5B292279C7F54007B78E2 /* EventConfirmViewController.m in Sources */,
+				BC991A0A27AE411900473A8A /* ScanQRCodeTool.m in Sources */,
 				04315E79277F53B200C52338 /* SceneDelegate.m in Sources */,
 				049AA4EF27988D0D00010AFB /* KidEmotionTableViewCell.m in Sources */,
 				BCB5B270279C0674007B78E2 /* SchoolInformationViewController.m in Sources */,
 				BCB5B254279C002C007B78E2 /* PickerSettingViewController.m in Sources */,
-				BCB5B2E3279C8941007B78E2 /* ScanGUIOne.m in Sources */,
-				BCB5B2E5279C8941007B78E2 /* ScanGUIThree.m in Sources */,
 				049AA4E92795E53E00010AFB /* KidPhotoTableViewCell.m in Sources */,
-				BC9919F127AAE3C300473A8A /* CreatQRCodeVC.m in Sources */,
 				BCB5B243279BF9E5007B78E2 /* EventHandlingViewController.m in Sources */,
 				BCB5B285279C0FD3007B78E2 /* KidStateEditingViewController.m in Sources */,
 				BCB5B22C279BD948007B78E2 /* SignInView.m in Sources */,
+				BC991A2727AFB0DA00473A8A /* SchoolInformationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1251,6 +1273,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1264,12 +1287,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79X9GJM4FD;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = PUK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = GGGGG.PUK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1284,12 +1309,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79X9GJM4FD;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = PUK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = GGGGG.PUK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
