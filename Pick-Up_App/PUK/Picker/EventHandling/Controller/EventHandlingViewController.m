@@ -66,6 +66,9 @@
     [_eventHandlingView.kidNameListTableView mas_updateConstraints:^(MASConstraintMaker *make) {
         make.height.equalTo(@(SIZE_HEIGHT * 0.05));
     }];
+    [UIView animateWithDuration:0 animations:^{
+        [self->_eventHandlingView.kidNameListTableView layoutIfNeeded];
+    }];
     [_eventHandlingView.kidNameListTableView scrollToRowAtIndexPath:text.object atScrollPosition:UITableViewScrollPositionTop animated:NO];
     [_eventHandlingView.mainKidTableView reloadData];
     

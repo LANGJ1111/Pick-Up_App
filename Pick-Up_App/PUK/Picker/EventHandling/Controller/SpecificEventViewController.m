@@ -27,13 +27,23 @@
     [_specificEventView.QRCodeButton addTarget:self action:@selector(pressQRCodeButton) forControlEvents:UIControlEventTouchUpInside];
     [_specificEventView.numericalCodeButton addTarget:self action:@selector(pressNumericalCodeButton) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_specificEventView];
+    
+    //创建手势对象（左扫）
+    UISwipeGestureRecognizer *rightSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeClick:)];
+
+    //设置相关属性
+    //设置轻扫的方向
+    rightSwipe.direction = UISwipeGestureRecognizerDirectionRight;
+
+    //添加到视图
+    [_specificEventView addGestureRecognizer:rightSwipe];
 }
 
 - (void)pressQRCodeButton {
     ScanQRCodeViewController *viewController = [[ScanQRCodeViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
     navigationController.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self.navigationController pushViewController:viewController animated:NO];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 - (void)pressNumericalCodeButton {
@@ -45,6 +55,13 @@
 
 - (void)pressBack {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)swipeClick:(UISwipeGestureRecognizer *)swipe {
+    //如果是右扫
+    if (swipe.direction == UISwipeGestureRecognizerDirectionRight) {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
 }
 
 @end

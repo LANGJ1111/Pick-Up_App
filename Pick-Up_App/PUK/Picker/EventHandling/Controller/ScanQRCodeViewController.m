@@ -16,9 +16,10 @@
 /*
  *   生成界面效果相关属性
  */
-@property (nonatomic,strong) UIImageView *codeBoundImageView;//四角图片
-@property (nonatomic,strong) UIImageView *line;
-@property (nonatomic,strong) NSTimer *timer;
+@property (nonatomic, strong) UIView *mainView;
+@property (nonatomic, strong) UIImageView *codeBoundImageView;//四角图片
+@property (nonatomic, strong) UIImageView *line;
+@property (nonatomic, strong) NSTimer *timer;
 
 @end
 
@@ -31,8 +32,7 @@
 
 #pragma mark - 懒加载
 
--(UIImageView *)codeBoundImageView
-{
+- (UIImageView *)codeBoundImageView {
     if (!_codeBoundImageView)
     {
         //添加二维码扫描的边框,转化成可拉伸的图片
@@ -51,8 +51,7 @@
     return _codeBoundImageView;
 }
 
--(UIImageView *)line
-{
+- (UIImageView *)line {
     if (!_line)
     {
         _line = [[UIImageView alloc] initWithFrame:self.codeBoundImageView.bounds];
@@ -66,8 +65,7 @@
 
 #pragma mark - viewDidLoad 初始化
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
@@ -75,8 +73,8 @@
     //设置扫描区域
     CGFloat top = 140/SCREEN_HEIGHT;
     CGFloat left = 70/SCREEN_WIDTH;
-    CGFloat width = (SCREEN_WIDTH -140)/SCREEN_WIDTH;
-    CGFloat height = (SCREEN_WIDTH -140)/SCREEN_HEIGHT;
+    CGFloat width = (SCREEN_WIDTH - 140)/SCREEN_WIDTH;
+    CGFloat height = (SCREEN_WIDTH - 140)/SCREEN_HEIGHT;
     ///top 与 left 互换  width 与 height 互换
     [self.output setRectOfInterest:CGRectMake(top, left, height, width)];
     
@@ -85,6 +83,21 @@
     
     //生成扫描区域全透明，周围半透明效果
     [self drawGUI];
+    
+    _mainView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+//    _mainView.backgroundColor = [UIColor tintColor];
+    [_mainView sendSubviewToBack:self.view];
+    [self.view addSubview:_mainView];
+    
+    //创建手势对象（左扫）
+    UISwipeGestureRecognizer *rightSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeClick:)];
+
+    //设置相关属性
+    //设置轻扫的方向
+    rightSwipe.direction = UISwipeGestureRecognizerDirectionRight;
+
+    //添加到视图
+    [_mainView addGestureRecognizer:rightSwipe];
 }
 
 
@@ -93,8 +106,7 @@
 #pragma mark - 封装方法调用集合
 
 //【CGRectOffset】便捷的设置frame方法
--(void)changeImage:(NSTimer *)timer
-{
+- (void)changeImage:(NSTimer *)timer {
     //微调改变frame,用以产生动画
     self.line.frame = CGRectOffset(self.line.frame, 0, 1.5);
     //判断是否超出界限，若超出，则返回开始位置重新进行动画
@@ -105,8 +117,7 @@
 }
 
 //设置界面效果
--(void)configView
-{
+- (void)configView {
     [self.view addSubview:self.codeBoundImageView];
     
     //定时器实现line动画效果
@@ -114,8 +125,7 @@
 }
 
 //生成扫描区域全透明，周围半透明效果
--(void)drawGUI
-{
+- (void)drawGUI {
     //1，绘制一张中间不透明，周围半透明的图片
     //创建一张画布
     UIGraphicsBeginImageContextWithOptions(self.view.bounds.size, NO, [UIScreen mainScreen].scale);
@@ -157,8 +167,7 @@
 
 #pragma mark - 重写父类 AVCaptureMetadataOutputObjectsDelegate 方法
 
-- (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection
-{
+- (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection {
     NSString *stringValue;
     if ([metadataObjects count] > 0) {
         //停止扫描
@@ -195,8 +204,7 @@
 
 #pragma mark - 释放定时器
 
--(void)viewWillDisappear:(BOOL)animated
-{
+- (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     
     if (_timer)
@@ -209,6 +217,12 @@
     }
 }
 
+- (void)swipeClick:(UISwipeGestureRecognizer *)swipe {
+    //如果是右扫
+    if (swipe.direction == UISwipeGestureRecognizerDirectionRight) {
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+}
 
 @end
 

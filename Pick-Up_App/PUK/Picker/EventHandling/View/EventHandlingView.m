@@ -115,6 +115,7 @@
     }
     if (indexPath.row == 0) {
         KidPhotoTableViewCell* kidPhotoCell = [_mainKidTableView dequeueReusableCellWithIdentifier:@"KidPhoto" forIndexPath:indexPath];
+        kidPhotoCell.backgroundColor = [UIColor colorWithWhite:0.95 alpha:1];
         kidPhotoCell.kidPhotoImageView.image = [UIImage imageNamed:@"pic10.jpg"];
         kidPhotoCell.schollNameLabel.text = @"学校：西安邮电小学";
         kidPhotoCell.gradeLabel.text = @"班级：三年二班";
